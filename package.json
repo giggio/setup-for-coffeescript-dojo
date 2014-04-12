@@ -1,0 +1,21 @@
+{
+  "name": "QuickTestWithCoffeeScriptMochaAndGrunt",
+  "version": "0.0.0",
+  "description": "An example of how to do setup a CoffeeScript dojo.",
+  "main": "Gruntfile.coffee",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "author": "Giovanni Bassi",
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "grunt": "^0.4.4",
+    "grunt-mocha-test": "^0.10.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "mocha": "^1.18.2"
+  }
+}

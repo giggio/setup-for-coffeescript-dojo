@@ -1,0 +1,2 @@
+#!/bin/bash
+watch -cn 1 cat output.tap
